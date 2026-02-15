@@ -1,6 +1,8 @@
 Notes:
-1.  Qiskit:  https://www.google.com/search?client=firefox-b-1-d&q=Qiskit
-2.  Shor's algorithm:  https://www.google.com/search?q=shor%27s+algorithm+how+to+implement+and+which+language+to+use&client=firefox-b-1-d&hs=7X19&sca_esv=5c76f582a1c211f1&sxsrf=ANbL-n5-6AGogWm10TGS5X0uakl_5L8pgw%3A1771173097661&ei=6fSRab-DKOn9ptQPu8_vmAg&biw=1536&bih=676&oq=shor%27s+algorithm+how+to+implement+and+which+languag&gs_lp=Egxnd3Mtd2l6LXNlcnAiM3Nob3IncyBhbGdvcml0aG0gaG93IHRvIGltcGxlbWVudCBhbmQgd2hpY2ggbGFuZ3VhZyoCCAEyBRAhGKABMgUQIRigATIFECEYoAFI6ShQ_QJY4RZwAXgBkAEAmAF6oAGMDqoBBDguMTC4AQPIAQD4AQGYAhOgAoQPwgIKEAAYsAMY1gQYR8ICCBAAGBYYChgewgIGEAAYFhgewgILEAAYgAQYhgMYigXCAggQABiABBiiBMICCBAAGKIEGIkFwgIFECEYqwLCAgUQIRifBZgDAIgGAZAGCJIHBDYuMTOgB69-sgcENS4xM7gH-g7CBwYwLjcuMTLIB0GACAA&sclient=gws-wiz-serp
+1.  Qubit Visualization (with 7 year old kid):  https://quantum.bard.edu/
+2.  IBM Qbit: https://www.ibm.com/think/topics/qubit
+3.  Qiskit:  https://www.google.com/search?client=firefox-b-1-d&q=Qiskit
+4.  Shor's algorithm:  https://www.google.com/search?q=shor%27s+algorithm+how+to+implement+and+which+language+to+use&client=firefox-b-1-d&hs=7X19&sca_esv=5c76f582a1c211f1&sxsrf=ANbL-n5-6AGogWm10TGS5X0uakl_5L8pgw%3A1771173097661&ei=6fSRab-DKOn9ptQPu8_vmAg&biw=1536&bih=676&oq=shor%27s+algorithm+how+to+implement+and+which+languag&gs_lp=Egxnd3Mtd2l6LXNlcnAiM3Nob3IncyBhbGdvcml0aG0gaG93IHRvIGltcGxlbWVudCBhbmQgd2hpY2ggbGFuZ3VhZyoCCAEyBRAhGKABMgUQIRigATIFECEYoAFI6ShQ_QJY4RZwAXgBkAEAmAF6oAGMDqoBBDguMTC4AQPIAQD4AQGYAhOgAoQPwgIKEAAYsAMY1gQYR8ICCBAAGBYYChgewgIGEAAYFhgewgILEAAYgAQYhgMYigXCAggQABiABBiiBMICCBAAGKIEGIkFwgIFECEYqwLCAgUQIRifBZgDAIgGAZAGCJIHBDYuMTOgB69-sgcENS4xM7gH-g7CBwYwLjcuMTLIB0GACAA&sclient=gws-wiz-serp
 
 Shor's algorithm is
 typically implemented using Python with specialized quantum computing frameworks such as Qiskit or PennyLane. These libraries provide the necessary tools to build and simulate quantum circuits or run them on real quantum hardware. 
