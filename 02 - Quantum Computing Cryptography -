@@ -1,3 +1,66 @@
+Notes:
+https://www.google.com/search?q=shor%27s+algorithm+how+to+implement+and+which+language+to+use&client=firefox-b-1-d&hs=7X19&sca_esv=5c76f582a1c211f1&sxsrf=ANbL-n5-6AGogWm10TGS5X0uakl_5L8pgw%3A1771173097661&ei=6fSRab-DKOn9ptQPu8_vmAg&biw=1536&bih=676&oq=shor%27s+algorithm+how+to+implement+and+which+languag&gs_lp=Egxnd3Mtd2l6LXNlcnAiM3Nob3IncyBhbGdvcml0aG0gaG93IHRvIGltcGxlbWVudCBhbmQgd2hpY2ggbGFuZ3VhZyoCCAEyBRAhGKABMgUQIRigATIFECEYoAFI6ShQ_QJY4RZwAXgBkAEAmAF6oAGMDqoBBDguMTC4AQPIAQD4AQGYAhOgAoQPwgIKEAAYsAMY1gQYR8ICCBAAGBYYChgewgIGEAAYFhgewgILEAAYgAQYhgMYigXCAggQABiABBiiBMICCBAAGKIEGIkFwgIFECEYqwLCAgUQIRifBZgDAIgGAZAGCJIHBDYuMTOgB69-sgcENS4xM7gH-g7CBwYwLjcuMTLIB0GACAA&sclient=gws-wiz-serp
+
+Shor's algorithm is
+typically implemented using Python with specialized quantum computing frameworks such as Qiskit or PennyLane. These libraries provide the necessary tools to build and simulate quantum circuits or run them on real quantum hardware. 
+Which Language to Use
+Python is the primary and most popular language for implementing quantum algorithms due to its user-friendliness and extensive library support. 
+
+    Qiskit: Developed by IBM, this open-source framework is excellent for building quantum circuits and running experiments on local simulators or connecting to real IBM Quantum computers via an API token.
+    PennyLane: This is a quantum machine learning library that allows for hybrid classical-quantum workflows and just-in-time compilation of circuits.
+    PyQuil: Developed by Rigetti, this library uses the Quil instruction set and can run on real Quantum Processing Units (QPUs).
+    Q#: Microsoft provides its own quantum programming language, which is part of the Azure Quantum development kit. 
+
+For simulating Shor's algorithm on a classical computer, Python (with libraries like NumPy) is recommended. The memory and processing requirements for simulating large numbers grow exponentially, so practical simulations are limited to factoring small numbers like 15 or 21. 
+How to Implement Shor's Algorithm
+Implementing Shor's algorithm involves both classical and quantum computing components. The overall algorithm is a hybrid process: 
+
+    Classical Subroutine (Pre-processing)
+        Choose a number 
+
+to be factored (e.g., 15).
+Pick a random number
+such that
+.
+Calculate the greatest common divisor (GCD) of
+and
+using the Euclidean algorithm. If the GCD is not 1, you have found a non-trivial factor, and you are done.
+If the GCD is 1, proceed to the quantum subroutine to find the order
+
+    .
+
+Quantum Subroutine (Period Finding)
+
+    Initialize qubits: Prepare two registers of qubits; the first register (control) will be put into an equal superposition, and the second register (target) is initialized to 
+
+.
+Apply modular exponentiation: A series of controlled unitary operations, which compute the function
+, are applied. This is the most complex part to implement and typically involves creating specific quantum gates (oracles).
+Apply the inverse Quantum Fourier Transform (QFT): The QFT is applied to the first register. This step efficiently extracts information about the period
+encoded in the quantum state's phase.
+Measure: The first register is measured, yielding a result
+which approximates
+for a random integer
+
+    .
+
+Classical Subroutine (Post-processing)
+
+    Use the measured value 
+
+to estimate the period
+using the continued fractions algorithm (available in Python's fractions module).
+Check the period
+: If
+is odd, or if the factors derived are trivial (e.g., 1 or
+), repeat the entire process with a new random number
+.
+Calculate factors: If
+is even, the non-trivial factors of
+are likely to be
+and
+
+
 
 Algorithmic complexity - https://www.onlinemathlearning.com/increase-exponential-hsf-le3.html
 
