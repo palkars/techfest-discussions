@@ -45,6 +45,8 @@ Thus, final answer: 2.
    1.  Open command prompt and run this
      1. ollama run deepseek-coder
    2. Ask the question - "Write me java, python and c++ programs to print hello"
+
+```
 Sample output:
 C:\Users\swapp>ollama run deepseek-coder
 pulling manifest
@@ -57,17 +59,18 @@ verifying sha256 digest
 writing manifest
 success
 ```
+```
 C:\Users\swapp>ollama run deepseek-coder
 >>> can you give me a code to print hello world using java as well as python
 Sure! Here is how we can do it in Java and Python respectively :
 
 Java Code (HelloWorld.java):
-```JAVA
+JAVA
 public class HelloWorld {
      public static void main(String[] args) {         System.out.println("Hello World!");       }        // Main
 method to start the execution of Java program
 }
-```
+
 To compile and run this code:
 `$ javac -version` (This will check your java version). If you get an error, it means that `javac cannot find
 java), then open a new terminal tab or command prompt. Navigate to the directory where 'HelloWorld' file is
@@ -77,11 +80,12 @@ WOrld!". This means that it has executed successfully! It's working fine now, yo
 necessary using `chmod +x [filename]`
 
 Python Code:
-```python
+python
+
 print("Hello World")     # Print Hello world in Python language      // main method to start execution of python
 program        def my_function():         print('This is a function')          for i in range(10):             if
 (i == 5) :                 break                  else:                     pass               end
-```
+
 To run this code, save it with `.py` extension and then execute the file using command line by typing following
 commands respectively ('cd' to change directory 'python [filename]'). Then you will see "Hello World" printed in
 your terminal/command prompt or output window:   Hello world is displayed on screen as a result of this code
