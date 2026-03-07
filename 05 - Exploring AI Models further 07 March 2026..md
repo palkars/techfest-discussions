@@ -21,3 +21,4 @@ Tokens allow AI to manage memory constraints—if a conversation exceeds the tok
 1. OpenAI - https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them
 2. OpenAI https://ollama.com/library/mistral-small3.1
 3. OepnAI TOkenizer https://platform.openai.com/tokenizer
+4. NVIDIA article: https://blogs.nvidia.com/blog/ai-tokens-explained/
