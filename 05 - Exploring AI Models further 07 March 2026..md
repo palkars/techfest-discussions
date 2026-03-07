@@ -17,3 +17,27 @@
 2. OpenAI https://ollama.com/library/mistral-small3.1
 3. OepnAI TOkenizer https://platform.openai.com/tokenizer
 4. NVIDIA article: https://blogs.nvidia.com/blog/ai-tokens-explained/
+
+## Trying Mistal model
+1. We downloaded mistral model as mentioned here:  https://ollama.com/library/mistral-small3.1
+  1. ollama run mistral-small3.1
+  2. We also ran claude with mistral-small3.1 model using:
+  3. installed claude: https://code.claude.com/docs/en/quickstart#winget
+     1. winget install Anthropic.ClaudeCode
+  4. We launched claude with the model
+    1. ollama launch claude --model mistral-small3.1
+    2.  We asked it a few questions and how to train the model
+      1. Prepare Your Data: Ensure your data is clean and in the correct format. This might involve data cleaning,
+      normalization, and splitting your data into training, validation, and test sets.
+      2. Set Up Your Environment: Make sure you have the necessary software and libraries installed. This typically includes
+       a framework like PyTorch or TensorFlow, and any other dependencies the model requires.
+      3. Load the Model: If Mistral-small3.1 is available as a pre-trained model, you can load it using the appropriate
+      library. For example, if it's available in the Hugging Face Transformers library, you can load it using from
+      transformers import AutoModelForSequenceClassification.
+      4. Fine-Tune the Model: Use your prepared data to fine-tune the model. This usually involves setting up a training
+      loop where the model learns from your data.
+      5. Evaluate the Model: After training, evaluate the model's performance on your test set to ensure it generalizes well
+       to new data.
+      6. Save the Model: Once you're satisfied with the model's performance, save it so you can use it for inference later.
+    
+
