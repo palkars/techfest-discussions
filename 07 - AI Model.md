@@ -16,7 +16,8 @@
 3. https://copilot.microsoft.com/chats/jna5gCAa8Qy6pzzaVJZcq
 
 
-## how to use Logistic regression (classification) algorithm? can you give some code rather than using the library
+## How to use Logistic regression (classification) algorithm? 
+* Can you give some code rather than using the library
 1. https://copilot.microsoft.com/shares/5NHRkwGNg8F6ZieWroiTg
 2. https://copilot.microsoft.com/shares/MwoYLPkMVJHXhiMdycCeF
 3. https://copilot.microsoft.com/shares/poUoK4PzEeqCp9A5ko4Vw
