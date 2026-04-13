@@ -1,7 +1,8 @@
 # AI Models
 
-### IBM QuBit : https://www.ibm.com/think/topics/qubit
-###### ...actually last month IBMs stock market crashed due to, someone discovered that LLMs could potentially performs the operations which quantum computers could do.
+## IBM QuBit:
+1. https://www.ibm.com/think/topics/qubit
+2. actually last month IBMs stock market crashed due to, someone discovered that LLMs could potentially performs the operations which quantum computers could do.
 
 ### IBM Quantum Labs : https://www.ibm.com/quantum/products#access-plans
 
