@@ -5,7 +5,7 @@
 
 ### IBM Quantum Labs : https://www.ibm.com/quantum/products#access-plans
 
-## Google Colab : https://colab.research.google.com/
+### Google Colab : https://colab.research.google.com/
 
 ### Copilot code for Modeling
 https://copilot.microsoft.com/shares/pnW56msXqGjN5LxPCazLx1
