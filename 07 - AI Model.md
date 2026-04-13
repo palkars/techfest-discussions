@@ -2,13 +2,13 @@
 
 ## IBM QuBit:
 * https://www.ibm.com/think/topics/qubit
-2. actually last month IBMs stock market crashed due to, someone discovered that LLMs could potentially performs the operations which quantum computers could do.
+* actually last month IBMs stock market crashed due to, someone discovered that LLMs could potentially performs the operations which quantum computers could do.
 
 ## IBM Quantum Labs:
-1. https://www.ibm.com/quantum/products#access-plans
+* https://www.ibm.com/quantum/products#access-plans
 
 ## Google Colab:
-1. https://colab.research.google.com/
+* https://colab.research.google.com/
 
 ## Copilot code for Modeling
 1. https://copilot.microsoft.com/shares/pnW56msXqGjN5LxPCazLx1
