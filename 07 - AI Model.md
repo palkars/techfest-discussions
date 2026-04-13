@@ -2,7 +2,7 @@
 
 ### IBM QuBit
 https://www.ibm.com/think/topics/qubit
-###### actually last month IBMs stock market crashed due to, someone discovered that LLMs could potentially performs the operations which quantum computers could do..
+###### ...actually last month IBMs stock market crashed due to, someone discovered that LLMs could potentially performs the operations which quantum computers could do.
 
 ### IBM Quantum Labls
 https://www.ibm.com/quantum/products#access-plans
@@ -24,7 +24,7 @@ https://copilot.microsoft.com/shares/poUoK4PzEeqCp9A5ko4Vw
 https://copilot.microsoft.com/shares/bUMHwdzLFncBEL5j31q2t
 
 ### Kaggle
-Titanic - Machine Learning from Disaster : https://www.kaggle.com/competitions/titanic
-Leonardo - Airborne Object Recognition Challenge : https://www.kaggle.com/competitions/leonardo-airborne-object-recognition-challenge
+###### Titanic - Machine Learning from Disaster : https://www.kaggle.com/competitions/titanic
+###### Leonardo - Airborne Object Recognition Challenge : https://www.kaggle.com/competitions/leonardo-airborne-object-recognition-challenge
 
 
