@@ -27,4 +27,3 @@
 1. Titanic - Machine Learning from Disaster : https://www.kaggle.com/competitions/titanic
 2. Leonardo - Airborne Object Recognition Challenge : https://www.kaggle.com/competitions/leonardo-airborne-object-recognition-challenge
 
-
